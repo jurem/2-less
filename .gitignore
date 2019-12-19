@@ -27,3 +27,12 @@ setup.log
 
 # Local OPAM switch
 _opam/
+
+
+# Isabelle
+*.thy~
+
+
+# Apple macos junk
+.DS_Store
+
