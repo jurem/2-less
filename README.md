@@ -1,6 +1,6 @@
 # 2-less sequences
 
-Let n>1 be a natural number. Consider two triplets x=(x1,x2,x3) and y=(y1,y2,y3), where xi, yi are in the interval from 1 to n. We say that x<y if at least two components of x are less (component-wise) than that of y. A sequence of triplets t=(t1,t2,...,tm) is called a *2-less sequence* if for every i<j it follows that ti<tj. The problem is to generate such a sequence of maximum length.
+Let n>1 be a natural number. Consider two triplets x=(x1,x2,x3) and y=(y1,y2,y3), where xi, yi are in the interval from 0 to n-1. We say that x<y if at least two components of x are less (component-wise) than that of y. A sequence of triplets t=(t1,t2,...,tm) is called a *2-less sequence* if for every i<j it follows that ti<tj. The problem is to generate such a sequence of maximum length.
 
 In this repository you can find:
   * ocaml ... OCaml implementation of generator of such sequences
